@@ -1,1 +1,2 @@
-﻿
+﻿#Firefox Dumper
+Dumps the URLs from the last saved Firefox session.  Uses the default session locations to dump the URL from.  Saves the URLs as an .html file in %DESKTOP%\links\firefox<mmDDyyyy>.html.
