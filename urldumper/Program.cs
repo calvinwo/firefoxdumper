@@ -55,7 +55,7 @@ namespace urldumper
             }
             if (String.IsNullOrEmpty(output))
             {
-                output = $"{Environment.GetFolderPath(Environment.SpecialFolder.Desktop)}\\links\\firefox{DateTime.Today.ToString("MMddyyyy")}.html";
+                output = $"{Environment.GetFolderPath(Environment.SpecialFolder.Desktop)}\\links\\firefox{DateTime.Today.ToString("ddMMyyyy")}.html";
             }
             new UrlDumper().Dump(input, output);
         }
